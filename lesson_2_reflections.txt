@@ -10,3 +10,6 @@ By using git diff, and whenever there is a logical change between the 2, you sho
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 When i want to add a new feature.
 Branches allow me to edit the new feature branch as well as the master branch simultaneousley and improve on both before merging the 2
+
+How do the diagrams help you visualize the branch structure?
+By knowing the parent of the different commits i can see which ones are reachable and which ones not. If i want to reach one that is detached, i need to check it out using git checkout -b commitname
