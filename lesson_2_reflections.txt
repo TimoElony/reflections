@@ -1,0 +1,2 @@
+What happens when you initialize a repository? Why do you need to do it?
+A .git file is added. You need to create it to be able to add commits and tracked files to it.
