@@ -3,3 +3,10 @@ A .git file is added. You need to create it to be able to add commits and tracke
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 It offers a place where you find those files being tracked but not commited yet. Its good for a consistent workflow, where you have not settled on the final amount of files being ptracked yet
+
+How can you use the staging area to make sure you have one commit per logical change?
+By using git diff, and whenever there is a logical change between the 2, you should commit the stage and add the workspace to stage
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+When i want to add a new feature.
+Branches allow me to edit the new feature branch as well as the master branch simultaneousley and improve on both before merging the 2
