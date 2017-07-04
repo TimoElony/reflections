@@ -13,3 +13,11 @@ Branches allow me to edit the new feature branch as well as the master branch si
 
 How do the diagrams help you visualize the branch structure?
 By knowing the parent of the different commits i can see which ones are reachable and which ones not. If i want to reach one that is detached, i need to check it out using git checkout -b commitname
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+The added contents are conserved from both branches and the deleted ones stay deleted. All the commits stay in place, so it is useful to keep them on the graph.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+pro: easy in simple add/remove cases
+cons: prone to error in more difficult replace cases
+
